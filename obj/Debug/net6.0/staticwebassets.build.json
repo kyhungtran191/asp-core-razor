@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "NhX3Yk63oRwhd0FRUZ+b22mi1YH3XQVqHj32hGsQh7o=",
+  "Source": "razor-asp",
+  "BasePath": "_content/razor-asp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "razor-asp\\wwwroot",
+      "Source": "razor-asp",
+      "ContentRoot": "C:\\Users\\Admin\\OneDrive\\Desktop\\WebASPNETCore\\razor-asp\\razor-asp\\wwwroot\\",
+      "BasePath": "_content/razor-asp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

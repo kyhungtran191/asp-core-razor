@@ -5,10 +5,13 @@ namespace razor_asp
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddControllers();
+            builder.Services.AddRazorPages();
             var app = builder.Build();
-
-            app.MapGet("/", () => "Hello World!");
-
+            app.UseHttpsRedirection();
+            app.UseStaticFiles();
+            app.MapControllers();
+            app.MapRazorPages();
             app.Run();
         }
     }
